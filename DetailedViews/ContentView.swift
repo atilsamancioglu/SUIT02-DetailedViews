@@ -10,7 +10,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        
+        VStack{
+            
+           MetallicaImage(image: Image("metallica"))
+            MetallicaImage(image: Image("metallica2"))
+
+        
+        HStack{
+            Text("Hello Swift")
+                .foregroundColor(Color.orange)
+                .background(Color.black)
+                .font(.largeTitle)
+            
+            Text("Metallica")
+                .fontWeight(.light)
+                .foregroundColor(Color.red)
+                .font(.largeTitle)
+            .frame(width: 200, height: 100)
+            
+        }
+            
+        }
     }
 }
 

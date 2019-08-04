@@ -10,7 +10,10 @@ import SwiftUI
 
 struct NavigationSecondView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+            Text("Second View Controller")
+        }.navigationBarTitle(Text("Second View"))
     }
 }
 

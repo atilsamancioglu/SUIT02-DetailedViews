@@ -9,15 +9,25 @@
 import SwiftUI
 
 struct MetallicaImage: View {
+    
+    var image : Image
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        image
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+        .frame(width: UIScreen.main.bounds.width * 0.8, height: UIScreen.main.bounds.height * 0.3)
+        .clipShape(Circle())
+        .overlay(Circle().stroke(Color.white,lineWidth: 6))
+        .shadow(radius: 10)
+        .padding()
     }
 }
 
 #if DEBUG
 struct MetallicaImage_Previews: PreviewProvider {
     static var previews: some View {
-        MetallicaImage()
+        MetallicaImage(image: Image("metallica2"))
     }
 }
 #endif

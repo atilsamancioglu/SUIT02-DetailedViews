@@ -13,6 +13,12 @@
 		FCDC2B8B22F6C4CC00091900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC2B8A22F6C4CC00091900 /* Assets.xcassets */; };
 		FCDC2B8E22F6C4CC00091900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDC2B8D22F6C4CC00091900 /* Preview Assets.xcassets */; };
 		FCDC2B9122F6C4CC00091900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDC2B8F22F6C4CC00091900 /* LaunchScreen.storyboard */; };
+		FCDC2B9922F6CC9400091900 /* MetallicaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2B9822F6CC9400091900 /* MetallicaImage.swift */; };
+		FCDC2B9B22F6CFA300091900 /* NavigationFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2B9A22F6CFA300091900 /* NavigationFirstView.swift */; };
+		FCDC2B9D22F6CFB600091900 /* NavigationSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2B9C22F6CFB600091900 /* NavigationSecondView.swift */; };
+		FCDC2B9F22F6D46900091900 /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2B9E22F6D46900091900 /* ListExampleView.swift */; };
+		FCDC2BA122F6D73700091900 /* Musician.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2BA022F6D73700091900 /* Musician.swift */; };
+		FCDC2BA322F6D8F900091900 /* ListSectionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC2BA222F6D8F900091900 /* ListSectionExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		FCDC2B8D22F6C4CC00091900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCDC2B9022F6C4CC00091900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCDC2B9222F6C4CC00091900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDC2B9822F6CC9400091900 /* MetallicaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetallicaImage.swift; sourceTree = "<group>"; };
+		FCDC2B9A22F6CFA300091900 /* NavigationFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFirstView.swift; sourceTree = "<group>"; };
+		FCDC2B9C22F6CFB600091900 /* NavigationSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSecondView.swift; sourceTree = "<group>"; };
+		FCDC2B9E22F6D46900091900 /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
+		FCDC2BA022F6D73700091900 /* Musician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musician.swift; sourceTree = "<group>"; };
+		FCDC2BA222F6D8F900091900 /* ListSectionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				FCDC2B8422F6C4C800091900 /* AppDelegate.swift */,
 				FCDC2B8622F6C4C800091900 /* SceneDelegate.swift */,
 				FCDC2B8822F6C4C800091900 /* ContentView.swift */,
+				FCDC2B9822F6CC9400091900 /* MetallicaImage.swift */,
+				FCDC2B9A22F6CFA300091900 /* NavigationFirstView.swift */,
+				FCDC2B9C22F6CFB600091900 /* NavigationSecondView.swift */,
+				FCDC2B9E22F6D46900091900 /* ListExampleView.swift */,
+				FCDC2BA022F6D73700091900 /* Musician.swift */,
+				FCDC2BA222F6D8F900091900 /* ListSectionExampleView.swift */,
 				FCDC2B8A22F6C4CC00091900 /* Assets.xcassets */,
 				FCDC2B8F22F6C4CC00091900 /* LaunchScreen.storyboard */,
 				FCDC2B9222F6C4CC00091900 /* Info.plist */,
@@ -147,7 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDC2B8522F6C4C800091900 /* AppDelegate.swift in Sources */,
+				FCDC2B9B22F6CFA300091900 /* NavigationFirstView.swift in Sources */,
+				FCDC2BA122F6D73700091900 /* Musician.swift in Sources */,
+				FCDC2B9D22F6CFB600091900 /* NavigationSecondView.swift in Sources */,
 				FCDC2B8722F6C4C800091900 /* SceneDelegate.swift in Sources */,
+				FCDC2B9922F6CC9400091900 /* MetallicaImage.swift in Sources */,
+				FCDC2BA322F6D8F900091900 /* ListSectionExampleView.swift in Sources */,
+				FCDC2B9F22F6D46900091900 /* ListExampleView.swift in Sources */,
 				FCDC2B8922F6C4C800091900 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,23 @@ import SwiftUI
 
 struct NavigationFirstView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+        VStack{
+            MetallicaImage(image: Image("metallica2"))
+            
+            Button(action: {
+                //button code
+                print("log")
+            }) {
+                Text("Button")
+            }
+            
+            NavigationLink(destination: NavigationSecondView()) {
+                Text("Navigation Link")
+            }.padding()
+            
+        }.navigationBarTitle(Text("First View"))
+        }
     }
 }
 

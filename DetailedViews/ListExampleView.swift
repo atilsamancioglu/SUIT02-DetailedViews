@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ListExampleView: View {
+    
+    let myArray = ["James0", "Lars", "Kirk", "Rob"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+       /*
+        List{
+            ForEach(myArray,id: \.self ) { element in
+                Text(element)
+            }
+            
+        }
+        */
+        
+        List(myArray,id: \.self) { element in
+            Text(element)
+        }
+        
     }
 }
 
